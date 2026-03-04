@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&J Group - Premium Audio & Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 加载动画 -->
+    <div class="loader">
+        <div class="spinner"></div>
+        <p>正在为您精心准备...</p>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!--导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Company%20LOGO.png" alt="B&J Group Logo">
+                <span>B&J GROUP</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!--首横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="animate-text">Premium<br><span>Audio Living</span></h1>
+                <p class="animate-text delay-1">Blending classic aesthetics with modern technology, creating perfect audio experiences and comfortable living spaces for you</p>
+                <div class="hero-buttons animate-text delay-2">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image animate-image">
+                <div class="image-carousel">
+                    <img src="all%20jukebox%20group.jpg" alt="Jukebox Collection" class="active">
+                    <img src="little%20jukebox%20group.jpg" alt="Little Jukebox Group">
+                    <img src="little%20jukebox%202%20group.jpg" alt="Jukebox Collection 2">
+                    <img src="Product%20large%20group.jpg" alt="Large Product Group">
+                    <img src="Product%20group.jpg" alt="Product Group">
+                    <img src="Product%20group2.jpg" alt="Product Group 2">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 产品展示区 -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Discover our premium collection</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="products-grid">
+                <!--音产品组 -->
+                <div class="product-category">
+                    <h3 class="category-title">Classic Audio</h3>
+                    <div class="product-cards">
+                        <div class="product-card" data-category="audio">
+                            <div class="product-image">
+                                <img src="little%20jukebox%202%20group.jpg" alt="Retro Jukebox">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Retro Jukebox</h4>
+                                <p>Classic retro design with perfect sound quality</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="audio">
+                            <div class="product-image">
+                                <img src="Product%20Jukebox%20group.jpg" alt="Jukebox Set">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Classic Jukebox Set</h4>
+                                <p>Multiple classic models combination</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="audio">
+                            <div class="product-image">
+                                <img src="little%20jukebox.jpg" alt="迷你点唱机">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Mini Jukebox</h4>
+                                <p>Compact and exquisite with outstanding sound quality</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--家产品组 -->
+                <div class="product-category">
+                    <h3 class="category-title">Comfortable Furniture</h3>
+                    <div class="product-cards">
+                        <div class="product-card" data-category="furniture">
+                            <div class="product-image">
+                                <img src="foldable%20table%20.png" alt="Folding Table">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Multi-functional Folding Table</h4>
+                                <p>1.8m large size, practical and beautiful</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="furniture">
+                            <div class="product-image">
+                                <img src="1.6meter%20foldable%20table.jpg" alt="1.6m Folding Table">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>1.6m Folding Table</h4>
+                                <p>Medium size, suitable for various occasions</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="furniture">
+                            <div class="product-image">
+                                <img src="director%20chair.jpg" alt="Director Chair">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Classic Director Chair</h4>
+                                <p>Comfortable seating, elegant design</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="furniture">
+                            <div class="product-image">
+                                <img src="foldable%20chair%20.jpg" alt="Folding Chair">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Portable Folding Chair</h4>
+                                <p>Lightweight, portable, comfortable and durable</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--其他产品 -->
+                <div class="product-category">
+                    <h3 class="category-title">Selected Accessories</h3>
+                    <div class="product-cards">
+                        <div class="product-card" data-category="accessory">
+                            <div class="product-image">
+                                <img src="product1.jpg" alt="Product 1">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Selected Accessories</h4>
+                                <p>Quality accessories, perfect match</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="accessory">
+                            <div class="product-image">
+                                <img src="product2.jpg" alt="Product 2">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Classic Accessories</h4>
+                                <p>Classic design, practical</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--更多产品 -->
+                <div class="product-category">
+                    <h3 class="category-title">More Products</h3>
+                    <div class="product-cards">
+                        <div class="product-card" data-category="more">
+                            <div class="product-image">
+                                <img src="Product3.jpg" alt="Product 3">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Additional Product 1</h4>
+                                <p>High quality product with excellent features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="more">
+                            <div class="product-image">
+                                <img src="Product4.jpg" alt="Product 4">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Additional Product 2</h4>
+                                <p>High quality product with excellent features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="more">
+                            <div class="product-image">
+                                <img src="Product5.jpg" alt="Product 5">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Additional Product 3</h4>
+                                <p>High quality product with excellent features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="more">
+                            <div class="product-image">
+                                <img src="Product6.jpg" alt="Product 6">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Additional Product 4</h4>
+                                <p>High quality product with excellent features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--额外产品 -->
+                <div class="product-category">
+                    <h3 class="category-title">Extra Products</h3>
+                    <div class="product-cards">
+                        <div class="product-card" data-category="extra">
+                            <div class="product-image">
+                                <img src="Product7.jpg" alt="Product 7">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Extra Product 1</h4>
+                                <p>Special edition with unique features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="extra">
+                            <div class="product-image">
+                                <img src="Product8.jpg" alt="Product 8">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Extra Product 2</h4>
+                                <p>Special edition with unique features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="extra">
+                            <div class="product-image">
+                                <img src="Product9.jpg" alt="Product 9">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Extra Product 3</h4>
+                                <p>Special edition with unique features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+
+                        <div class="product-card" data-category="extra">
+                            <div class="product-image">
+                                <img src="Product10.jpg" alt="Product 10">
+                                <div class="product-overlay">
+                                    <button class="view-detail">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h4>Extra Product 4</h4>
+                                <p>Special edition with unique features</p>
+                                <div class="product-price"><a href="mailto:niebinbin1984@icloud.com">Price Inquiry</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About B&J Group</h2>
+                    <p>B&J Group focuses on providing high-quality audio equipment and comfortable furniture for modern life. We believe that a beautiful life requires careful design and excellent quality.</p>
+                    <p>From classic jukeboxes to modern folding furniture, every product carries our understanding and pursuit of a beautiful life. We are committed to creating unique and comfortable experiences for every customer.</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-crown"></i>
+                            <h4>Quality Assurance</h4>
+                            <p>Selected materials, exquisite craftsmanship</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <h4>Design Aesthetics</h4>
+                            <p>Perfect fusion of classic and modern</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-headphones"></i>
+                            <h4>Superior Sound Quality</h4>
+                            <p>Professional tuning, pleasant to hear</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="Product%20group2.jpg" alt="B&J Group Product Collection">
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--我们 -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us</p>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-user"></i>
+                        <h3>Contact Person</h3>
+                        <p>Binbin</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>niebinbin1984@icloud.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-building"></i>
+                        <h3>Company</h3>
+                        <p>B&J Group</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Company%20LOGO.png" alt="B&J Group">
+                    <h3>B&J GROUP</h3>
+                    <p>Premium Audio & Comfortable Living</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-user"></i> Binbin</p>
+                    <p><i class="fas fa-envelope"></i> niebinbin1984@icloud.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-wechat"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 B&J Group. All Rights Reserved. | Carefully designed, quality guaranteed</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 产品详情模态框 -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImg" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
+                    <div class="modal-price" id="modalPrice"></div>
+                    <div class="modal-actions">
+                        <a href="mailto:niebinbin1984@icloud.com" class="btn btn-primary">Price Inquiry</a>
+                        <a href="mailto:niebinbin1984@icloud.com" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

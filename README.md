@@ -1,58 +1,146 @@
-# Starlight Starter Kit: Basics
+# B&J Group Official Website
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 🌐 Live Demo
+
+Visit our website: [https://your-domain.netlify.app](https://your-domain.netlify.app)
+
+## 📖 About This Project
+
+This is the official website of **B&J Group**, featuring a modern, responsive design that showcases our premium audio equipment and comfortable furniture products.
+
+### Key Features
+- ✨ Modern gradient design with smooth animations
+- 📱 Fully responsive layout (mobile, tablet, desktop)
+- 🎨 Beautiful product showcase with hover effects
+- 📧 Integrated email inquiry system
+- ⚡ Fast loading and optimized performance
+- 🎯 SEO-friendly structure
+
+## 🛠️ Technologies Used
+
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with gradients, animations, and flexbox/grid layouts
+- **JavaScript (ES6+)** - Interactive features and smooth scrolling
+- **Font Awesome** - Icon library
+- **Google Fonts** - Poppins & Playfair Display typography
+
+## 📁 Project Structure
 
 ```
-npm create astro@latest -- --template starlight
+├── index.html              # Main HTML file
+├── style.css               # Stylesheet
+├── script.js               # JavaScript functionality
+├── new-design.html         # Alternative modern design
+├── new-style.css           # Modern design styles
+├── new-script.js           # Modern design scripts
+└── [images]/               # Product images and assets
+    ├── Company LOGO.png
+    ├── all jukebox group.jpg
+    ├── little jukebox group.jpg
+    └── ... (more product images)
 ```
 
-<!-- ASTRO:REMOVE:START -->
+## 🚀 Deployment
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+This website is deployed using **Netlify** with automatic deployments from GitHub.
 
-<!-- ASTRO:REMOVE:END -->
+### Deploy to Netlify
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+1. Fork this repository
+2. Log in to [Netlify](https://app.netlify.com)
+3. Click "New site from Git"
+4. Select your GitHub repository
+5. Deploy!
 
-## 🚀 Project Structure
+Build settings:
+- **Base directory**: `/`
+- **Publish directory**: `/`
+- **Build command**: None (static site)
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## 📧 Contact Information
 
+- **Contact Person**: Binbin
+- **Email**: niebinbin1984@icloud.com
+- **Company**: B&J Group
+
+## 🎨 Design Features
+
+### Color Scheme
+- Primary Gradient: `#667eea` → `#764ba2`
+- Accent Color: `#ff6b6b`
+- Background: Clean white with light gray sections
+
+### Typography
+- Headings: Playfair Display (serif)
+- Body: Poppins (sans-serif)
+
+### Animations
+- Fade-in-up entrance animations
+- Hover effects on cards and buttons
+- Smooth scroll transitions
+- Pulse background effects
+
+## 📱 Responsive Breakpoints
+
+- Desktop: `> 992px`
+- Tablet: `768px - 992px`
+- Mobile: `< 768px`
+
+## 🔧 Local Development
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/bjgroup-website.git
+
+# Navigate to project directory
+cd bjgroup-website
+
+# Open index.html in your browser
+# Or use a local server:
+python3 -m http.server 8080
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Then visit: `http://localhost:8080`
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 📦 Features Overview
 
-Static assets, like favicons, can be placed in the `public/` directory.
+### Product Showcase
+- Classic Audio Equipment (Jukeboxes)
+- Comfortable Furniture (Tables, Chairs)
+- Selected Accessories
 
-## 🧞 Commands
+### Interactive Elements
+- Email inquiry buttons on all products
+- Contact form with validation
+- Smooth navigation menu
+- Mobile hamburger menu
 
-All commands are run from the root of the project, from a terminal:
+### Performance
+- Optimized images
+- Minimal dependencies
+- Fast load times
+- CDN-hosted resources (fonts, icons)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🤝 Contributing
 
-## 👀 Want to learn more?
+This is a private project for B&J Group. For questions or issues, please contact:
+- Email: niebinbin1984@icloud.com
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+## 📄 License
+
+This project is proprietary software. All rights reserved © 2026 B&J Group.
+
+## 🙏 Acknowledgments
+
+- Font Awesome for icons
+- Google Fonts for typography
+- Netlify for hosting
+
+---
+
+**Built with ❤️ by the B&J Group Team**
